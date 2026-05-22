@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "c68e3847-58fa-4fec-8364-d4628da4218a",
+    "Name": "UsrKing_MobileFormPage",
+    "ModifiedOnUtc": "\/Date(1779451324000)\/",
+    "Parent": {
+      "UId": "019c694a-1a3b-4812-b2e5-219b326061ae",
+      "Name": "MobilePageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "King mobile form page",
+    "DependsOn": []
+  }
+}

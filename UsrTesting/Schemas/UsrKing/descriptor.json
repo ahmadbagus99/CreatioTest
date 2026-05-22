@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "8af0d885-ecda-45a8-9a4b-ac4b1e5a4fdd",
+    "Name": "UsrKing",
+    "ModifiedOnUtc": "\/Date(1779451317000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "King",
+    "DependsOn": []
+  }
+}

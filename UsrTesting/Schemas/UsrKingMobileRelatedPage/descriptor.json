@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "12431bbe-249e-4b1d-8468-fa736fca8122",
+    "Name": "UsrKingMobileRelatedPage",
+    "ModifiedOnUtc": "\/Date(1779451324000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "King (Mobile page settings)",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "fa3befd5-7ef5-4a57-bee4-a057315c7ce3",
+    "Name": "UsrKing_Detail",
+    "ModifiedOnUtc": "\/Date(1779451324000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "King detail",
+    "DependsOn": []
+  }
+}

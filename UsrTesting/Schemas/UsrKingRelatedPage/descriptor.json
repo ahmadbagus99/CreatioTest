@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "3dfb320b-c493-461c-9371-c7d8a5195a89",
+    "Name": "UsrKingRelatedPage",
+    "ModifiedOnUtc": "\/Date(1779451324000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "King (Page settings)",
+    "DependsOn": []
+  }
+}

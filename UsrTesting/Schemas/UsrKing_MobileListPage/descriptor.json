@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "c5feb74d-c7a2-4088-9be7-7d766c10a998",
+    "Name": "UsrKing_MobileListPage",
+    "ModifiedOnUtc": "\/Date(1779451324000)\/",
+    "Parent": {
+      "UId": "011e7dda-a763-4535-9b9a-e09eddd047be",
+      "Name": "BaseMobileListTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "King mobile list page",
+    "DependsOn": []
+  }
+}
