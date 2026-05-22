@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "224b572c-107f-4254-ab98-2052769b67dc",
+    "Name": "UsrDodPod_Detail",
+    "ModifiedOnUtc": "\/Date(1779453757000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "DodPod detail",
+    "DependsOn": []
+  }
+}

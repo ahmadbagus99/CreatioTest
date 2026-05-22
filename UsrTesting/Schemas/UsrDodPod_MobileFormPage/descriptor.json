@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "090276a5-c95e-4862-b001-b5f95763624c",
+    "Name": "UsrDodPod_MobileFormPage",
+    "ModifiedOnUtc": "\/Date(1779453757000)\/",
+    "Parent": {
+      "UId": "019c694a-1a3b-4812-b2e5-219b326061ae",
+      "Name": "MobilePageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "DodPod mobile form page",
+    "DependsOn": []
+  }
+}

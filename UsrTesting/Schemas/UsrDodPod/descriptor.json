@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "ffe38123-7cda-43c8-9df3-446c2b70fcda",
+    "Name": "UsrDodPod",
+    "ModifiedOnUtc": "\/Date(1779453750000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "DodPod",
+    "DependsOn": []
+  }
+}

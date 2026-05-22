@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "012d787d-286e-4118-bbf3-2abb02f95c6e",
+    "Name": "UsrDodPod_ListPage",
+    "ModifiedOnUtc": "\/Date(1779453757000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "DodPod list page",
+    "DependsOn": []
+  }
+}

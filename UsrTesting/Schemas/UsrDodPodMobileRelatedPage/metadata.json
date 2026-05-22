@@ -1,0 +1,28 @@
+{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "2bf2ec57-d6d0-4064-84c0-cb388adbd305",
+      "A2": "UsrDodPodMobileRelatedPage",
+      "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2",
+      "B8": "0.0.0.0",
+      "AD1": "ffe38123-7cda-43c8-9df3-446c2b70fcda",
+      "AD2": "EntitySchemaManager",
+      "AD3": "MobileRelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "Pages": [
+          {
+            "UId": "39d7fcfd-d6b1-4acc-b9ac-794a3139f139",
+            "PageSchemaUId": "090276a5-c95e-4862-b001-b5f95763624c",
+            "IsDefault": true
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "2bf2ec57-d6d0-4064-84c0-cb388adbd305",
+    "Name": "UsrDodPodMobileRelatedPage",
+    "ModifiedOnUtc": "\/Date(1779453757000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "DodPod (Mobile page settings)",
+    "DependsOn": []
+  }
+}

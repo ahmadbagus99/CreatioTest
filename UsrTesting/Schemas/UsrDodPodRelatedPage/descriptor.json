@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "436143f5-3345-4173-8271-e7f9cf488984",
+    "Name": "UsrDodPodRelatedPage",
+    "ModifiedOnUtc": "\/Date(1779453757000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "DodPod (Page settings)",
+    "DependsOn": []
+  }
+}

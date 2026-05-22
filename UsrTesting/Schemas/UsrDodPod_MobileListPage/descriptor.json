@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "a2810284-15a8-40bc-a367-045ab911d5f6",
+    "Name": "UsrDodPod_MobileListPage",
+    "ModifiedOnUtc": "\/Date(1779453757000)\/",
+    "Parent": {
+      "UId": "011e7dda-a763-4535-9b9a-e09eddd047be",
+      "Name": "BaseMobileListTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "DodPod mobile list page",
+    "DependsOn": []
+  }
+}
