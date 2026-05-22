@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a5446624-0e5a-4266-b53e-a931b01933e4",
+    "Name": "UsrSeqraRelatedPage",
+    "ModifiedOnUtc": "\/Date(1779461194000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Seqra (Page settings)",
+    "DependsOn": []
+  }
+}

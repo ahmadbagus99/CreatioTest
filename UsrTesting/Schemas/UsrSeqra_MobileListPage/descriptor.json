@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "affabf58-8bfd-4ff4-83ed-7d1b8fbc68c8",
+    "Name": "UsrSeqra_MobileListPage",
+    "ModifiedOnUtc": "\/Date(1779461194000)\/",
+    "Parent": {
+      "UId": "011e7dda-a763-4535-9b9a-e09eddd047be",
+      "Name": "BaseMobileListTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Seqra mobile list page",
+    "DependsOn": []
+  }
+}

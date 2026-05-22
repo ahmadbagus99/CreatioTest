@@ -1,0 +1,8 @@
+= MetaData.Schema.UId "2826eaef-58fa-4820-a642-5edfde180489"
+= MetaData.Schema.A2 "UsrSeqra_FormPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["6a49fe41-7b28-422f-bc39-01d439019b1a","20964a08-54fc-4d7c-a4c3-6e21c3ecebf5","68afc202-66fc-4db8-9073-1d539281e6ed","dbd36f2d-1fc0-450c-b9ce-cc4f99374ad0"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9"
+- MetaData.Schema.B7
++ MetaData.Schema.B7 false

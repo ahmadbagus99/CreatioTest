@@ -621,6 +621,7 @@
 	<ItemGroup Label="Entity Files">
 		<Compile Remove="$(RelativePkgFolderPath)/UsrTesting/Schemas/UsrDodPod/UsrDodPod.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrTesting/Schemas/UsrDodPod/UsrDodPod.cs')" />
 		<Compile Remove="$(RelativePkgFolderPath)/UsrTesting/Schemas/UsrKing/UsrKing.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrTesting/Schemas/UsrKing/UsrKing.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrTesting/Schemas/UsrSeqra/UsrSeqra.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrTesting/Schemas/UsrSeqra/UsrSeqra.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

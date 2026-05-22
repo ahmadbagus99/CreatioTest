@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "47751898-d246-473c-a34f-f51e0e0b14c7",
+    "Name": "UsrSeqraMobileRelatedPage",
+    "ModifiedOnUtc": "\/Date(1779461194000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Seqra (Mobile page settings)",
+    "DependsOn": []
+  }
+}

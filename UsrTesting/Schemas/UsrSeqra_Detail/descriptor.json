@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "0ada9195-46a2-4d88-8909-61b2199faa98",
+    "Name": "UsrSeqra_Detail",
+    "ModifiedOnUtc": "\/Date(1779461194000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Seqra detail",
+    "DependsOn": []
+  }
+}

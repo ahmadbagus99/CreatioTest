@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "eea1996e-c991-4b51-b376-5c9590abf793",
+    "Name": "UsrSeqra_MobileFormPage",
+    "ModifiedOnUtc": "\/Date(1779461194000)\/",
+    "Parent": {
+      "UId": "019c694a-1a3b-4812-b2e5-219b326061ae",
+      "Name": "MobilePageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Seqra mobile form page",
+    "DependsOn": []
+  }
+}
