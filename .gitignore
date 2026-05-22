@@ -1,0 +1,6 @@
+# Ignore semua package Creatio system
+*
+
+# Kecuali file git ini sendiri
+!.gitignore
+!.gitkeep
