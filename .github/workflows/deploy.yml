@@ -1,0 +1,54 @@
+name: Deploy packages to server
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Pull packages to Pkg folder
+        run: |
+          PKG_DIR="/opt/creatio/creatio-app/Terrasoft.Configuration/Pkg"
+
+          git config --global url."https://${{ secrets.GH_PAT }}@github.com/".insteadOf "https://github.com/"
+
+          if [ ! -d "$PKG_DIR/.git" ]; then
+            echo "==> Init git di Pkg folder..."
+            git -C "$PKG_DIR" init
+            git -C "$PKG_DIR" remote add origin https://github.com/ahmadbagus99/CreatioTest.git
+          fi
+
+          echo "==> Pull latest packages..."
+          git -C "$PKG_DIR" fetch origin main
+          git -C "$PKG_DIR" checkout -f FETCH_HEAD
+
+      - name: Update from file system and compile
+        run: |
+          curl -s -c /tmp/creatio_cookie.txt \
+            -H "Content-Type: application/json" \
+            -X POST \
+            "http://localhost:8080/ServiceModel/AuthService.svc/Login" \
+            -d '{"UserName":"${{ secrets.CREATIO_USER }}","UserPassword":"${{ secrets.CREATIO_PASSWORD }}"}'
+
+          BPMCSRF=$(grep "BPMCSRF" /tmp/creatio_cookie.txt | awk '{print $7}')
+
+          echo "==> Update packages from file system..."
+          curl -s \
+            -b /tmp/creatio_cookie.txt \
+            -H "Content-Type: application/json" \
+            -H "BPMCSRF: $BPMCSRF" \
+            -X POST \
+            "http://localhost:8080/ServiceModel/AppInstallerService.svc/LoadPackagesToDB" \
+            -d '{}'
+
+          echo "==> Compile..."
+          curl -s \
+            -b /tmp/creatio_cookie.txt \
+            -H "Content-Type: application/json" \
+            -H "BPMCSRF: $BPMCSRF" \
+            -X POST \
+            "http://localhost:8080/ServiceModel/WorkspaceExplorerService.svc/Rebuild" \
+            -d '{}'
