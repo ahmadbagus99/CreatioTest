@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "cddc6a9e-d90c-45d4-ad0d-e2afa4b0a28a",
+    "Name": "UsrTestingV2_MobileFormPage",
+    "ModifiedOnUtc": "\/Date(1779598352000)\/",
+    "Parent": {
+      "UId": "019c694a-1a3b-4812-b2e5-219b326061ae",
+      "Name": "MobilePageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "TestingV2 mobile form page",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "2103ce64-2c7b-4097-b24e-fa6d1bd04db0",
+    "Name": "UsrTestingV2_MobileListPage",
+    "ModifiedOnUtc": "\/Date(1779598352000)\/",
+    "Parent": {
+      "UId": "011e7dda-a763-4535-9b9a-e09eddd047be",
+      "Name": "BaseMobileListTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "TestingV2 mobile list page",
+    "DependsOn": []
+  }
+}
